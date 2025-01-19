@@ -1,3 +1,5 @@
+@import "../variables.css";
+
 .nav-bar {
     position: fixed;
     top: 0;
@@ -47,6 +49,6 @@
 }
 
 #nav-bar__ai-chat-btn {
-    background-color: #75df13;
+    background-color: var(--highlight-color);
     text-align: center;
 }
