@@ -1,0 +1,18 @@
+.nav-bar {
+    /*layout attribute*/
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    margin-bottom: 20px;
+    position: fixed;
+
+    border-bottom : 2px solid black;
+
+    /*flex attributes*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bar__item {
+    cursor: pointer;
+}
