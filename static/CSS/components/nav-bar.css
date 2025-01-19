@@ -17,8 +17,6 @@
     justify-content: space-evenly;
     align-items: center;
 
-    /*fonts*/
-    font-size: 20px;
 
     z-index: 100;
 
@@ -26,7 +24,7 @@
 }
 
 .nav-bar__item {
-    width: 140px;
+    width: 120px;
     height: 30px;
     
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -41,7 +39,7 @@
 }
 
 .nav-bar__logo {
-    font-size: 25px;
+    font-size: var(--h2-font_size);
     background-color: initial;
     margin-right: 250px;
 
