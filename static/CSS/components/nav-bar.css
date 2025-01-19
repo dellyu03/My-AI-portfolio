@@ -1,18 +1,52 @@
 .nav-bar {
+    position: fixed;
+    top: 0;
+
     /*layout attribute*/
     width: 100vw;
-    height: 50px;
+    height: 60px;
     display: flex;
-    margin-bottom: 20px;
     position: fixed;
+    margin-bottom: 10px;
 
-    border-bottom : 2px solid black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 아래쪽 그림자 */
 
     /*flex attributes*/
     justify-content: space-evenly;
     align-items: center;
+
+    /*fonts*/
+    font-size: 20px;
+
+    z-index: 100;
+
+    background-color: white;
 }
 
 .nav-bar__item {
+    width: 140px;
+    height: 30px;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    border-radius: 30px;
     cursor: pointer;
+}
+
+.nav-bar__logo {
+    font-size: 25px;
+    background-color: initial;
+    margin-right: 250px;
+
+    box-shadow: none;
+}
+
+#nav-bar__ai-chat-btn {
+    background-color: #75df13;
+    text-align: center;
 }

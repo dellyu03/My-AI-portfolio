@@ -7,14 +7,31 @@
     <link rel="stylesheet" href="{{ url_for('static', path='css/style.css') }}">
 </head>
 <body>
-    <ul class = "nav-bar">
-        <li class = "nav-bar__item">About me</li>
-        <li class = "nav-bar__item">Skills</li>
-        <li class = "nav-bar__item">Projects</li>
-        <li class = "nav-bar__item">Experiences</li>
-        <li class = "nav-bar__item">Career</li>
-        <li class = "nav-bar__item">Chat with AI Me</li>
-    </ul>
-    <h1>AI로 세상을 바꾸는 개발자 유승환입니다.</h1>
+    <header>
+        <ul class = "nav-bar">
+            <li class = "nav-bar__item nav-bar__logo"><a href = "#title__profile-section">Dellyu03's Portfolio</a></li>
+            <li class = "nav-bar__item"><a href = "#">About me</a></li>
+            <li class = "nav-bar__item"><a href = "#title__skills-section">Skills</a></li>
+            <li class = "nav-bar__item"><a href = "#">Projects</a></li>
+            <li class = "nav-bar__item"><a href = "#">Experiences</a></li>
+            <li class = "nav-bar__item"><a href = "#">Career</a></li>
+            <li id = "nav-bar__ai-chat-btn" class = "nav-bar__item"><a href = "#">AI Chat</a></li>
+        </ul>
+    </header>
+    <content>
+        <div id = "title__profile-section" class="profile-section">
+            <div class = "profile__label">
+                <img class = "profile__img" src="/static/img/profile-img.jpeg" alt="">
+                <h1 class = "profile__title">Yoo Seung Hwan</h1>
+            </div>
+            <p class = "profile__content">
+                자기 소개를 적을거임
+            </p>
+        </div>
+    </content>
+    <footer>
+
+    </footer>
+    
 </body>
 </html>
