@@ -17,6 +17,7 @@
 body {
     font-family: "Inter", sans-serif;
     font-size: 16px;
+    height: 400vh;
 }
 
 
@@ -24,6 +25,11 @@ header {
     width: 100vw;
     height: 60px;
     margin-bottom: 80px;
+}
+
+.section {
+    scroll-margin-top: 60px;
+    margin : auto;
 }
 
 #profile {
