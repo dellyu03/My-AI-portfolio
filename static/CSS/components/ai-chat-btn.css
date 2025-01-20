@@ -1,5 +1,3 @@
-@import "../variables.css";
-
 #ai-chat-btn {
     position: fixed;
     top:80vh;
@@ -21,9 +19,10 @@
 
 
     cursor: pointer;
-    transition: opacity 0.2s ease;
+    transition: all 0.2s ease-in-out;
 }
 
 #ai-chat-btn:hover {
     opacity: 1;
+    transform: scale(1.05);
 }

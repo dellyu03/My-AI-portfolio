@@ -1,0 +1,11 @@
+/* variables 정의 */
+:root {
+    --highlight-color: #007bff;
+    --title-font_weight: 600;
+    /* 다른 변수들... */
+}
+
+/* 다른 CSS 파일들 import */
+@import "./components/ai-chat-btn.css";
+@import "./components/header.css";
+/* ... */ 
