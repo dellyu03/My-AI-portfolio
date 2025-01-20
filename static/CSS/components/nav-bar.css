@@ -48,6 +48,7 @@
 
 .nav-bar__logo {
     font-size: var(--h2-font_size);
+    font-weight: var(--title-font_weight);
     background-color: initial;
     margin-right: 250px;
 

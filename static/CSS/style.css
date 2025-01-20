@@ -5,16 +5,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*componets*/
-@import "./components/nav-bar.css";
-@import "./components/ai-chat-btn.css";
-
 /*Sections*/
 @import "./profile.css";
 @import "./about-me.css";
 @import "./skill.css";
 @import "./project.css";
 @import "./experience.css";
+@import "./contact.css";
+@import "./footer.css";
+
+/*componets*/
+@import "./components/nav-bar.css";
+@import "./components/ai-chat-btn.css";
+@import "./components/stack-icons.css";
+
 
 
 
@@ -57,70 +61,3 @@ header {
 
 
 
-/* Languages */
-.python {
-    background-color: var(--python-color);
-}
-
-.javascript {
-    background-color: var(--javascript-color);
-    color: black; /* JavaScript 노란색 배경에는 검은색 글씨 */
-}
-
-.java {
-    background-color: var(--java-color);
-}
-
-.cpp {
-    background-color: var(--cpp-color);
-}
-
-/* Frameworks */
-.react {
-    background-color: var(--react-color);
-    color: black;
-}
-
-.fastapi {
-    background-color: var(--fastapi-color);
-}
-
-.spring {
-    background-color: var(--spring-color);
-}
-
-.langchain {
-    background-color: var(--langchain-color);
-}
-
-/* Tools */
-.git {
-    background-color: var(--git-color);
-}
-
-.docker {
-    background-color: var(--docker-color);
-}
-
-.aws {
-    background-color: var(--aws-color);
-    color: black;
-}
-
-.vscode {
-    background-color: var(--vscode-color);
-}
-
-/* Etc */
-.mysql {
-    background-color: var(--mysql-color);
-}
-
-.mongodb {
-    background-color: var(--mongodb-color);
-}
-
-.linux {
-    background-color: var(--linux-color);
-    color: black;
-}
