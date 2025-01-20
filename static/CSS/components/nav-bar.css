@@ -35,6 +35,7 @@
 
 
     border-radius: 30px;
+    transition: color 0.5s ease-in-out;
     cursor: pointer;
 }
 
@@ -46,7 +47,7 @@
     box-shadow: none;
 }
 
-#nav-bar__ai-chat-btn {
+
+.nav-bar__item:hover {
     background-color: var(--highlight-color);
-    text-align: center;
 }

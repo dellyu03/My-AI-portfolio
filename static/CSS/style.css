@@ -10,6 +10,8 @@
 
 /*Sections*/
 @import "./profile.css";
+@import "./about-me.css";
+@import "./skill.css";
 
 
 
@@ -47,6 +49,10 @@ header {
 .section-title {
     font-size: 65px;
     font-weight: var(--title-font_weight);
+    text-underline-offset : 10px;
+
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
 }
 
 
