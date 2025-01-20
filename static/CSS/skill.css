@@ -13,14 +13,7 @@
     border-bottom: 2px solid black;
 }
 
-
-
-.skill__content-container {
-    display: flex;
-    width: 300px;
-}
-
-.skill__content-item {
+.stack {
     margin-right: 15px;
     padding:0.5em;
     width: 150%;
@@ -36,6 +29,15 @@
     color:white;
 }
 
+
+
+.skill__content-container {
+    display: flex;
+    width: 300px;
+}
+
+
+
 .skill__category-name {
     width: 150px;
     font-size: var(--title-font_size);
@@ -48,70 +50,3 @@
 
 
 
-/* Languages */
-#skill_python {
-    background-color: #3776AB;
-}
-
-#skill_javascript {
-    background-color: #F7DF1E;
-    color: black; /* JavaScript 노란색 배경에는 검은색 글씨 */
-}
-
-#skill_java {
-    background-color: #007396;
-}
-
-#skill_cpp {
-    background-color: #00599C;
-}
-
-/* Frameworks */
-#skill_react {
-    background-color: #61DAFB;
-    color: black;
-}
-
-#skill_fastapi {
-    background-color: #009688;
-}
-
-#skill_spring {
-    background-color: #6DB33F;
-}
-
-#skill_langchain {
-    background-color: #3178C6;
-}
-
-/* Tools */
-#skill_git {
-    background-color: #F05032;
-}
-
-#skill_docker {
-    background-color: #2496ED;
-}
-
-#skill_aws {
-    background-color: #FF9900;
-    color: black;
-}
-
-#skill_vscode {
-    background-color: #007ACC;
-}
-
-/* Etc */
-#skill_mysql {
-    background-color: #4479A1;
-}
-
-#skill_mongodb {
-    background-color: #47A248;
-}
-
-#skill_linux {
-    background-color: #FCC624;
-    color: black;
-}

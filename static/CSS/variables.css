@@ -9,4 +9,28 @@
     /*font-weight, opacity*/
     --title-font_weight:800;
     --h2-font_weight: 600;
+
+    /* Languages */
+    --python-color: #3776AB;
+    --javascript-color: #F7DF1E;
+    --java-color: #007396;
+    --cpp-color: #00599C;
+
+    /* Frameworks */
+    --react-color: #61DAFB;
+    --fastapi-color: #009688;
+    --spring-color: #6DB33F;
+    --langchain-color: #3178C6;
+
+    /* Tools */
+    --git-color: #F05032;
+    --docker-color: #2496ED;
+    --aws-color: #FF9900;
+    --vscode-color: #007ACC;
+
+    /* Etc */
+    --mysql-color: #4479A1;
+    --mongodb-color: #47A248;
+    --linux-color: #FCC624;
 }
+
