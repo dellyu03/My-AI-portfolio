@@ -1,3 +1,7 @@
+#project {
+    margin-bottom: 30vh;
+}
+
 .project-container {
     width: 75vw;
     height: 75vh;
@@ -69,4 +73,8 @@
 .project__attachment-item {
     margin-right: 15px;
     margin-top: 25px;
+}
+
+.project_stack {
+    font-size: 12px;
 }
