@@ -6,6 +6,7 @@
 
 /*componets*/
 @import "./components/nav-bar.css";
+@import "./components/ai-chat-btn.css";
 
 /*Sections*/
 @import "./profile.css";
@@ -27,12 +28,26 @@ header {
     margin-bottom: 80px;
 }
 
-.section {
-    scroll-margin-top: 60px;
-    margin : auto;
-}
-
 #profile {
     margin: auto;
+    margin-bottom: 25vh;
 }
+
+.section {
+    scroll-margin-top: 70px;
+    margin : auto;
+
+    width: 80vw;
+    height: 65vh;
+    margin-bottom: 25vh;
+}
+
+
+
+.section-title {
+    font-size: 65px;
+    font-weight: var(--title-font_weight);
+}
+
+
 

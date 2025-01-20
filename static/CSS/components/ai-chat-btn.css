@@ -1,0 +1,24 @@
+@import "../variables.css";
+
+#ai-chat-btn {
+    position: fixed;
+    top:85vh;
+    left: 90vw;
+
+    width: 64px;
+    height: 64px;
+
+    opacity: 0.7;
+    background-color: var(--highlight-color);
+
+    font-size: 16px;
+    font-weight: var(--title-font_weight);
+    color: white;
+
+
+    border:0.5px solid grey;
+    border-radius: 40%;
+
+
+    cursor: pointer;
+}

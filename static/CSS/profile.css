@@ -1,12 +1,12 @@
 #profile {
     display: grid;
 
-    grid-template-columns: 1fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr 0.2fr 0.5fr;
     grid-template-rows: 0.5fr 1fr;
-    column-gap: 150px;
+    column-gap: 2px;
 
     width: 80vw;
-    height: 65vh;
+    height: 55vh;
 }
 
 
