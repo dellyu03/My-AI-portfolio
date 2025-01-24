@@ -9,6 +9,8 @@ fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 jinja2 = "*"
 pygithub = "*"
+rich = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
