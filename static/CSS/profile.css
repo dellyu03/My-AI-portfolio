@@ -56,3 +56,6 @@
     border-radius: 50%;
 }
 
+.highlight-text {
+    color : var(--highlight-color);
+}

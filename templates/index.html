@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dellyu03's Portfolio</title>
     <link rel="stylesheet" href="{{ url_for('static', path='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -20,7 +21,7 @@
     </header>
     <content>
         <div id="profile">
-            <div class="profile__name">Developer <br> Solving productivity and creativity with AI. </div>
+            <div class="profile__name"><span class="highlight-text">Developer</span> <br> Solving productivity and creativity <span class="highlight-text">with AI</span>. </div>
             <div class="profile__content-container">
                 <p class="profile__content">Hello I'm Seunghwan Yoo <br>I am a developer passionate about creating innovative products using AI technology.<br>
                     I am particularly interested in AI-powered applications and web development.<br>
@@ -230,8 +231,11 @@
                 <div class="contact-item"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;seunghwan081@gmail.com</div>
             </div>
         </div>
-        <button id="ai-chat-btn" class="btn">
-            <p>AI Chat</p>
+        <button id="ai-chat-btn">
+            <div class="ai-chat-icon-container">
+                <i class="material-icons">smart_toy</i>
+                <span class="ai-badge">AI</span>
+            </div>
         </button>
         <script src="https://kit.fontawesome.com/2da93f64de.js" crossorigin="anonymous"></script>
     </content>
