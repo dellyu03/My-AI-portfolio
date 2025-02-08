@@ -11,6 +11,11 @@ jinja2 = "*"
 pygithub = "*"
 rich = "*"
 beautifulsoup4 = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-mistralai = "*"
+sentence-transformers = "*"
+faiss-cpu = "*"
 
 [dev-packages]
 
